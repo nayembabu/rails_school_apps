@@ -1,0 +1,1 @@
+# rails_school_apps
