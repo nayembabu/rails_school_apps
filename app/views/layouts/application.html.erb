@@ -5,8 +5,31 @@
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
-    <%# <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %> 
-    <%# <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %> 
+
+
+    <%= javascript_include_tag "/lib/jquery/jquery.js", "data-turbolinks-track" => true %>
+
+    <%= javascript_pack_tag 'ex/starlight.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'ex/ResizeSensor.js', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'ex/dashboard.js', 'data-turbolinks-track': 'reload' %>
+
+
+
+
+    <%= javascript_include_tag "/lib/popper_js/popper.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/bootstrap/bootstrap.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/jquery-ui/jquery-ui.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/jquery.sparkline.bower/jquery.sparkline.min.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/d3/d3.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/rickshaw/rickshaw.min.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/chart.js/Chart.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/Flot/jquery.flot.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/Flot/jquery.flot.pie.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/Flot/jquery.flot.resize.js", "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "/lib/flot-spline/jquery.flot.spline.js", "data-turbolinks-track" => true %>
+    
   </head>
 
   <body>
